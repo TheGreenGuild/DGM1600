@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Green Guild Home Page</title>
+    <link href="index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<!--You will use your skillzz in HTML and CSS to create a simple "technology interest" page such as the one shown at the bottom of this assignment.  Your page will have the following elements:
+
+Centered logo in a header
+Profile picture with your name, the date, and bulleted list of why you chose to learn web development.  Formatted as shown in the example image.
+Set of technology "badges" (URLs will be provided for the images) with slightly translucent labels covering the bottom portion of the image as shown.
+A "most excited to learn" block with a chosen technology highlighted, brief description of why, and with edges lined up with other matching page elements.
+A centered foot message.
+4 points per required item will be awarded as per the attached rubric.
+
+Submit your assignment as the URL from your Codepen.io project.  Here are some image links you may use:
+
+Criteria	
+Centered header logo
+Profile pic with name, date, list properly formatted
+Technology badge set with proper sizing and labels
+Most excited to learn block with content properly formatted
+Centered footer message
+
+-->
+
+<body>
+    <div class="container">
+        <header>
+            <img src="/Images for coding/icon_for_gg.svg">
+            <h1>The Green Guild</h1>
+        </header>
+
+        <main>
+            <section class="bio"><!--This part is green-->
+                <img class="profile-pic" alt="Picture of Teison Edwards"src="/Images for coding/teison.jpeg">
+                <div classs="intro-section"> <!--This part is red-->
+                    <div class="namedate"> <!--This part is blue-->
+                        <div class="name"> <!--This part is yellow-->
+                            <h2>Teison Edwards</h2>
+                        </div>
+                        <div class="date"> <!--This part is also yellow-->
+                            <p>9.14.2021</p>
+                        </div>
+                    
+                    </div>
+                    <div class="i-chose"> <!--this part is blue-->
+                        <h4 >I chose to learn web dev because:</h4>
+                        <ul>
+                            <li>It's fun to make code</li>
+                            <li>Everything I need to learn is on MDN</li>
+                            <li>There are tons of good paying jobs</li>
+                            <li>I enjoy working on development teams</li>
+                            <li>It feels so good! - Chuck Mangione</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <div class="box-for-figures"> <!--this section is green-->
+                <figure>
+                    <img class="figure-caption"
+                    src="/Images for coding/vue-9.svg"
+                    alt="Picture of a green V">
+                    <figcaption>This is a green V</figcaption>
+                </figure>
+                <figure>
+                    <img id="green-dice" src="/Images for coding/nodejs-icon.svg"
+                    alt="This is a green d20">
+                    <figcaption>This is a green d20</figcaption>
+                </figure>
+                <figure>
+                    <img src="/Images for coding/graphql.svg"
+                    alt="This is a purple d20">
+                    <figcaption>This is a purple d20</figcaption>
+                </figure>
+                <figure>
+                    <img src="/Images for coding/angular-icon-1.svg"
+                    alt="This is a d6">
+                    <figcaption>This is a d6</figcaption>
+                </figure>
+            </div>
+            <div id="most-excited"><!--this part is red, and differs from my map-->
+                <h3>I am most excited to learn...</h2>
+            </div>
+
+            <section class="what-ill-learn"> <!--this section is red-->
+                <h4>How to make a website</h4>
+                <p>Up until now coding has been intimidating. This class will be a great opportunity to learn new skills and break into web
+                    development. I'm excited to see all the cool things there is to learn about HTML5 and CSS. Also it helps that our teacher is named after a Norse God. 
+                    That's got to add something to the class. 
+                </p>
+            </section>
+            
+        </main>
+        <footer>
+            <p>For Educational Puposes by Teison Edwards</p>
+        </footer>
+    </body>
+</div>
+</html>
